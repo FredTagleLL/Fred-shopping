@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Agregar articulo</title>
+</head>
+<body class="caja">
+    <header class="header">
+        <h1 class="titulo"><a class="titulo__link" href="./index.html">Venta de Artículos Únicos</a></h1>
+    </header>
+    <main class="container agregar-articulo">
+        <h2 class="container__titulo">AGREGAR PRODUCTO</h2>
+        <form action="" class="formulario" action="" data-formulario>
+            <input type="text" name="name" id="name" class="formulario__name formulario__input" placeholder="nombre..." required>
+            <input type="text" name="description" id="description" class="formulario__description formulario__input" placeholder="descripción del producto..." required>
+            <input type="number" name="precio" id="precio" class="formulario__precio formulario__input" placeholder="precio..." step="0.001" required>
+            <input type="text" name="image" id="image" class="formulario__image formulario__input" placeholder="url imagen..." required >
+            <div class="formulario__botones">
+                <button class="btn btn--enviar" type="submit" id="enviar">Enviar</button>
+                <button class="btn btn--limpiar" id="limpiar" type="button">Limpiar</button>
+            </div>
+        </form>
+        
+    </main>
+    <script src="./js/subirVideo.js" defer type="module"></script>
+</body>
+</html>

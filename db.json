@@ -1,0 +1,67 @@
+{
+  "articulos": [
+    {
+      "id": "1",
+      "name": "Guitarra",
+      "description": "Vendo guitarra en excelente estado, gran sonido, ideal para músicos apasionados. ¡Lista para tocar!",
+      "price": 70.5,
+      "url": "../img/old-wooden-guitar-isolated.jpg"
+    },
+    {
+      "name": "Guitarra electrica",
+      "description": "Guitarra eléctrica de alta calidad, ideal para todo tipo de estilos musicales.",
+      "price": 350,
+      "url": "https://audiomusica.vtexassets.com/arquivos/ids/160548/1-guitarra-electrica-g-l-legacy-hss-old-school-tobacco-mn-1111642.jpg?v=638334448636370000",
+      "id": "iKe080l"
+    },
+    {
+      "name": "PlayStation 2",
+      "description": "Consola PlayStation 2, ofrece una gran variedad de juegos y gráficos de calidad.",
+      "price": 100,
+      "url": "https://i5.walmartimages.com/seo/Restored-Sony-PlayStation-2-PS2-Slim-Console-Black-Matching-Controller-Power-and-Cables-Refurbished_dbaccc62-1405-45c3-a9e0-82eee8b1039d_1.ccbb04536b1daeab75e8248b0a1ac1e6.jpeg",
+      "id": "OnqI2hA"
+    },
+    {
+      "name": "Escritorio",
+      "description": "Escritorio funcional y moderno, perfecto para cualquier espacio de trabajo o estudio.",
+      "price": 70,
+      "url": "https://promart.vteximg.com.br/arquivos/ids/8497295-1000-1000/130882.jpg?v=638702415574470000",
+      "id": "nzH9i3L"
+    },
+    {
+      "name": "Silla gamer",
+      "description": "Silla gamer ergonómica, comodidad y soporte ideal para largas sesiones de juego.",
+      "price": 250,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbS9rjmE7MlxRZdc2AJi-x-J12qwHqYMgpA&s",
+      "id": "mMZs1D-"
+    },
+    {
+      "name": "Teclado mecanico",
+      "description": "Teclado mecánico de alta precisión, ideal para gaming y escritura rápida.",
+      "price": 120,
+      "url": "https://dojiw2m9tvv09.cloudfront.net/48881/product/X_61ber44fhrl-_ac_sl1500_5862.jpg?90&time=1736575496",
+      "id": "7sL6JBC"
+    },
+    {
+      "name": "Mouse gamer",
+      "description": "Mouse gamer con alta precisión, diseño ergonómico y botones programables.",
+      "price": 50,
+      "url": "https://oechsle.vteximg.com.br/arquivos/ids/4553144/image-471a3444301746e7a1e760ef89001e67.jpg?v=637657864408070000",
+      "id": "IW6ogv0"
+    },
+    {
+      "name": "Bateria",
+      "description": "Batería de larga duración, ideal para dispositivos electrónicos y uso prolongado.",
+      "price": 150,
+      "url": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/119681224_01/w=800,h=800,fit=pad",
+      "id": "ru0wZ3B"
+    },
+    {
+      "name": "Teclado gamer",
+      "description": "Teclado gamer retroiluminado, con teclas mecánicas y respuesta rápida.",
+      "price": 250,
+      "url": "https://coolboxpe.vtexassets.com/arquivos/ids/348562/KD-809_1.jpg?v=638445626774670000",
+      "id": "HqeQYQw"
+    }
+  ]
+}

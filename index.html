@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Fred Shopping</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo"><a class="titulo__link" href="index.html">Venta de Artículos Únicos</a></h1>
+        <ul class="header__lista">
+            <li  data-agregar><a href="agregar-articulo.html" class="lista__link" >Agregar Producto</a></li>
+            <li>
+                <button class="header__buscar" data-busqueda><img class="buscar__img" src="./img/glass.png" alt="buscador" ></button>
+                <input id="search" type="search" class="header__barra desactivar" data-barra>
+                <!-- <div class="header__barra">
+                    <label class="ico__barra" for="search"><img src="./img/search.png" alt=""></label>
+                </div> -->
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <h2 class="container__titulo">Productos</h2>
+        <div class="container__cuerpo" data-articulo></div>
+        <div class="modal">
+            <p class="modal__texto">¿Estas seguro que quieres eliminar este producto?</p>
+            <div class="modal__botones">
+                <button class="btn btn__si">Si</button>
+                <button class="btn btn__no">no</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/mostrarArticulos.js" defer type="module"></script>
+    <script src="./js/barraBusqueda.js" defer type="module"></script>
+    <script src="./js/eliminarArticulo.js" defer type="module"></script>
+</body>
+</html>
