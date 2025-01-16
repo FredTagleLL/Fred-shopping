@@ -5,7 +5,7 @@
       "name": "Guitarra",
       "description": "Vendo guitarra en excelente estado, gran sonido, ideal para músicos apasionados. ¡Lista para tocar!",
       "price": 70.5,
-      "url": "../img/old-wooden-guitar-isolated.jpg"
+      "url": "./img/old-wooden-guitar-isolated.jpg"
     },
     {
       "name": "Guitarra electrica",
